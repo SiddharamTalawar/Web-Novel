@@ -1,0 +1,16 @@
+#root {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.5;
+  color: #888888;
+  font-weight: 400;
+  background-color: #dde0e2;
+  font-family: Arial, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
+}

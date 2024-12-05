@@ -1,0 +1,33 @@
+.history {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+.history-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to right, #eb3349 40%, #f45c43);
+  padding: 5px 20px;
+  width: 130px;
+}
+.down-triangle {
+  position: relative;
+  right: 65px;
+  bottom: -25px;
+  color: #eb3349;
+}
+.history-novels p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.history-novels p:hover {
+  color: #eb3349;
+  cursor: pointer;
+}
+.history-novel-title {
+  width: 700px;
+}
+.history-chapter-title {
+  width: 120px;
+}

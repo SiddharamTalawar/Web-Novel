@@ -1,0 +1,68 @@
+.ch-list-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 40px;
+}
+.ch-bold-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+.star .star-icon {
+  margin-right: 10px;
+  background-color: #eb3349;
+  color: white;
+  font-size: 20px;
+  padding: 5px 8px;
+}
+.star i {
+  margin-top: 10px;
+  margin-left: -25px;
+  font-size: 30px;
+  color: #eb3349;
+}
+.arrows {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 10px;
+  color: black;
+  font-size: 20px;
+}
+
+.arrows:hover {
+  cursor: pointer;
+  color: #eb3349;
+}
+
+.chapter-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.ch-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  max-width: 650px;
+}
+.ch-title:hover {
+  cursor: pointer;
+  color: #eb3349;
+}
+.time {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 15px;
+}

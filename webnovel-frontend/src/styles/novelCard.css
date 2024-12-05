@@ -1,0 +1,109 @@
+.novel-card {
+  padding: 15px 0 50px;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 19px;
+  width: 1170px;
+  height: 412px;
+  margin-left: 180px;
+  gap: 30px;
+}
+
+.novel-card-img {
+  width: 225px;
+  padding: 15px;
+  background: #fff;
+  display: flex;
+  box-sizing: border-box;
+}
+.novel-card-img img {
+  padding-top: 0 !important;
+  background-color: #f5f5f5;
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+  width: 193px;
+  /* aspect-ratio: auto 193 / 278; */
+}
+/* .novel-card-content {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px 30px 30px;
+  font-size: 0;
+  min-height: 318px;
+  box-sizing: border-box;
+  margin-left: 30px;
+} */
+.novel-card-content {
+  background-color: #f5f5f5;
+  width: 855px;
+  padding: 20px 30px 30px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 280px;
+}
+.novel-card-content p {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.novel-card-rating {
+  display: flex;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.novel-card-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+.bookmark-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bookmark-button i {
+  font-size: 30px;
+  color: #eb3349;
+  cursor: pointer;
+}
+.bookmark-button i:hover {
+  color: black;
+}
+.bookmark-button p {
+  font-size: 13px;
+  width: 80px;
+  text-align: center;
+}
+.novel-card .bold-text {
+  font-weight: bold;
+  color: #000;
+  margin-right: 10px;
+  width: 65px;
+  display: inline-block;
+}
+.novel-card span {
+  margin-left: 20px;
+}
+.read-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.read-buttons button {
+  padding: 10px 15px;
+  color: white;
+  background-color: #eb3349;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.read-buttons button:hover {
+  background-color: black;
+}

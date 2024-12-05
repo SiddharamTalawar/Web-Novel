@@ -1,0 +1,21 @@
+.novel-title {
+  font-size: 20px;
+  margin-left: 180px;
+  color: #eb3349;
+  margin-top: 20px;
+}
+.summary-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 180px;
+  width: 1000px;
+}
+.chapter-list-container {
+  margin-left: 180px;
+  width: 750px;
+  margin-bottom: 50px;
+}
+
+.show-more-icon {
+  color: black;
+}

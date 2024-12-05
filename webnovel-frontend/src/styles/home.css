@@ -1,0 +1,16 @@
+.home-card-container {
+  margin-left: 150px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.home-h1tag {
+  margin-left: 150px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-weight: medium;
+  font-size: 20px;
+  width: 800px;
+}
